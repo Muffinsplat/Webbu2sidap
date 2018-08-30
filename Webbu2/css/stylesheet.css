@@ -5,4 +5,51 @@ src: url("css/fonts/mplus-1c-regular.ttf");
 
 body {
     font-family: 'mplus-1c-regular', sans-serif;
+    background: #dfe1f2;
+}
+#over {
+background: #515fbb;
+color: white;
+padding: 30px 50px 20px 50px;
+    
+}
+#over img {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#navbar {
+  overflow: hidden;
+  background:#424fa8;
+}
+
+#navbar a {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 30px 50px 20px 50px;
+  text-decoration: none;
+  font-size: 16pt;
+  border-right-color: #000000;
+border-width: 1px;
+    
+}
+#navbar a:hover {
+  color: #000000;
+}
+
+#navbar a.active {
+  color: white;
+  font-weight: bold;
+
+}
+#navbar a.active:hover {
+  color: black;
+  border-color: #000000;
+}
+
+#navbar a:last-child {
+  display: right;
+  display: inline-block;
+  padding: 0px;
 }
