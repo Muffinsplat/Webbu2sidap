@@ -51,3 +51,16 @@ border-width: 1px;
 #navbar a:last-child {
   float: right;
 }
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    border:2px solid black;
+}
+.item {
+    margin: 2px;
+    background-color:aqua;
+    border: 1px dotted blue;
+    width:200px;
+    height:100px;
+}
