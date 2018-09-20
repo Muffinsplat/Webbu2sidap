@@ -64,3 +64,9 @@ border-width: 1px;
     width:200px;
     height:100px;
 }
+
+@media screen and (max-width: 300px) {
+	body {
+        background-color: lightblue;
+	}
+}
