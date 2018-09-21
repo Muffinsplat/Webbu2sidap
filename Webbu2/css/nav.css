@@ -17,10 +17,15 @@ html, body {
 }
 
 .menu a {
+    
    text-decoration: none;
    color: violet;
    margin: 0 10px;
    line-height: 70px;
+}
+.menu a:first-child {
+    display: flex;
+    flex-direction: column;
 }
 
 label {
@@ -32,6 +37,7 @@ label {
 
 #toggle {
    display: none;
+
 }
 
 @media only screen and (max-width:500px) {
